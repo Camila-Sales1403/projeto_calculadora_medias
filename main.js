@@ -51,7 +51,11 @@ corpoTabela.innerHTML = linhas;
 function atualizaMediaFinal (){
     const mediaFinal = calculoMediaFinal();
     document.getElementById("media-final-valor").innerHTML = mediaFinal.toFixed(2)
+<<<<<<< HEAD
     document.getElementById("media-final-resultado").innerHTML = mediaFinal >= notaMinima ? spanAprovado : spanReprovado;
+=======
+    document.getElementById("media-final-resultado").innerHTML = mediaFinal >= notaMinima? spanAprovado :spanReprovado;
+>>>>>>> 311c23d (fix: limitação de casas decimais)
 
 }
 
